@@ -1,0 +1,357 @@
+ 
+
+.text-desc{
+  color: #a8adc5 ;
+}
+ 
+body { 
+font-family: 'Sarabun', sans-serif;
+
+  font-size: 0.8rem;
+}
+.header-navbar{
+  font-family: 'Sarabun', sans-serif !important;
+}
+.navigation{
+  font-family: 'Sarabun', sans-serif !important;
+}
+.breadcrumb{ 
+  font-family: 'Sarabun', sans-serif !important;
+  font-size: 0.9rem !important;
+}
+form .form-control { 
+  border: 1px solid #a9a9a9;
+  color: #202020;
+} 
+h5 {
+  font-size: 1.4rem !important;
+}
+
+h6 {
+  font-size: 1.2rem !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  
+}
+h4, .h4 {
+  font-size: 1.1rem;
+}
+.modal-footer { 
+  justify-content: center  !important; 
+} 
+.btn{
+  font-size: 1.0rem  !important;
+}
+
+.thisActive {
+  background-color: #a7d0ea !important;
+}
+.main-menu.menu-dark .navigation > li.open > a { 
+  border-right: 4px solid #ff9800 !important;
+} 
+.main-menu.menu-dark .navigation > li.hover > a, .main-menu.menu-dark .navigation > li:hover > a, .main-menu.menu-dark .navigation > li.active > a {
+  color: #fc9218 !important;
+}
+.custom-file-img {
+  border: 1px solid #cacfe7;
+  height: calc(2.75rem + 2px);
+  padding: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background-color: #fff;
+  width: 7rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.bg_custom{
+  background-color: #f3f5fc;
+}
+/* /////////////////////////    Zuang   ///////////////////////// */
+
+.font1 {
+  font-size: 1.0rem;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+form label {
+  color: #6B6F82;
+  font-weight: 600;
+}
+
+.form-body.usergroup {
+  font-size: 1.2rem !important;
+}
+
+.form-control-danger {
+  border: 1px solid #e6122f !important;
+  color: #e6122f !important;
+}
+
+.custom-control-label::before {
+  background-color: #dedede;
+}
+
+form .formnone {
+  padding-top: 12px;
+}
+
+.form-group .formnone {
+  padding-top: 12px;
+}
+
+.form-group label {
+  color: #5c5c5c;
+  font-weight: 600;
+}
+select.form-control:not([size]):not([multiple]).input-lg, input.form-control.input-lg {
+   
+  font-size: 1.0rem !important; 
+}
+
+html body.fixed-navbar {
+  padding-top: 2rem;
+}
+
+.header-navbar .navbar-header .navbar-brand .brand-text {
+  padding-left: 0px !important;
+}
+
+@media (max-width: 576px) {
+  .header-navbar .navbar-header .navbar-brand .brand-text {
+    font-size: 18px;
+  }
+  .header-navbar .navbar-header .navbar-brand {
+      padding: 6px 0px !important;
+      margin-top: 10px;
+  }
+  .brand-logo{
+    display: none;
+  }
+}
+
+
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+  width: 70px !important;
+}
+
+.header-navbar .navbar-header .navbar-brand {
+  padding: 6px 0px !important;
+  margin-right: 0;
+}
+
+img.userprofile {
+  height: 100px;
+  max-width: unset !important;
+}
+
+img.userprofile_full {
+  height: 250px;
+}
+
+.custom-control-label::before {
+  background-color: #cccccc !important;
+}
+
+#form_usergroup form label {
+  font-weight: unset;
+  font-size: 1.3rem !important;
+}
+
+p.text-course {
+  font-size: 1.4rem;
+}
+
+.avatar img {
+  width: 85%;
+  max-width: 100%;
+  height: 32px !important;
+  border-radius: 2px !important;
+}
+
+.avatar i {
+  position: absolute;
+  right: -4px !important;
+  bottom: -4px !important;
+}
+
+.card-content.user_student {
+  cursor: pointer;
+}
+
+.datep .form-control:disabled, .form-control[readonly] {
+  background-color: #ffffff !important;
+}
+
+.danger_form {
+  color: #ff0000 !important;
+  border: 1px solid #ff0000 !important;
+  -webkit-animation-name: example;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+ 
+
+ .btn.btn_green {
+   background-color: #179c9b;
+   color: #ffffff;
+ }
+ .btn.btn_pink {
+  background-color: #e84c93;
+  color: #ffffff;
+}   
+
+.hide{
+  display: none;
+}
+
+
+.table th, .table td{
+  border-top: unset;
+}
+/* ////////////////////////////  FIRSTPAGE ////////////////////////////// */
+	html body.bg-full-screen-image{
+     /* 
+	  body#firstpage.bg-full-screen-image 
+	 background: url(/images/bg/bg_green2.png) no-repeat center center fixed !important; */
+   
+	    background: url(/office/images/bg/bg24.png) no-repeat center center fixed;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		  font-size: 1.6rem;
+  
+    }
+	
+
+	body#firstpage h3.txt_depart span{
+		display: block;
+	}
+	
+	body#firstpage form #msg.form-group {
+		margin-bottom: 0.8rem;
+		min-height: 25px;
+	}
+	body#firstpage.forgetpass_page .form-control-position {
+		position: absolute;
+		top: 5px;
+  }
+  
+  .footer_text{
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+
+  img.disease_pic{
+    width: 220px;
+  }
+  img.box_flag{
+    width: 18px;
+  }
+	.app-content.content .content-body{
+    font-size: 1.0rem;
+  }
+  .note-editor .btn-group .btn-sm, .btn-group-sm > .btn{
+    font-size: 1.0rem !important;
+  }
+  .note-toolbar button.note-btn{
+    padding: 0.5rem 0.8rem;
+  }
+
+  a.btn.btn-icon.btn-xs{
+    padding: .3rem 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1;
+    border-radius: 0.21rem;
+  }
+  a.btn.btn-icon.btn-xs.btn-round{
+    padding: 0.2rem 0.2rem;
+    font-size: 0.9rem;
+    line-height: 0.7;
+    border-radius: 1rem;
+ 
+  } 
+
+  .disease_pic{
+    width: 160px !important;
+    height: 90px !important;
+    border: 1px solid #cacfe7 !important;
+  }
+  .prog_pic{
+    width: 160px !important;
+    height: 90px !important;
+    border: 1px solid #cacfe7 !important;
+  }
+
+  .prog_pic2{
+    width: 96px !important;
+    height: 54px !important;
+    border: 1px solid #cacfe7 !important;
+  }
+  
+  .prog_pic3{
+    width: 220px !important;
+    height: 220px !important;
+    border: 1px solid #cacfe7 !important;
+  }
+
+  .main-menu.menu-dark .navigation > li ul .active > a {
+    color: #ffbb6d !important;
+    font-weight: normal !important;
+}
+  /* ######################################################################### */
+  /* ######################################################################### */
+  /* ######################################################################### */
+	@media (min-width: 200px){
+	 
+		
+	}
+
+    /* ######################################################################### */
+  /* ######################################################################### */
+  /* ######################################################################### */
+
+
+	@media (min-width: 320px){
+		 
+		
+  }
+    /* ######################################################################### */
+  /* ######################################################################### */
+  /* ######################################################################### */
+	@media (min-width: 480px){
+
+		 
+  }
+    /* ######################################################################### */
+  /* ######################################################################### */
+  /* ######################################################################### */
+	@media (min-width: 542px){
+		 
+
+	}
+  /* ######################################################################### */
+  /* ######################################################################### */
+  /* ######################################################################### */
+	@media (min-width: 768px){
+ 
+  }
+    /* ######################################################################### */
+  /* ######################################################################### */
+  /* ######################################################################### */
+	@media (min-width: 1200px) {
+
+	}
+	
+/* ////////////////////////////  END FIRSTPAGE  ////////////////////////////// */
+ 
